@@ -195,6 +195,7 @@ aside h3 {
 }
 #pu {
     padding-bottom: 10px;
+    font-family: var(--fonte-padrao);
 }
 
 aside ul {
@@ -206,6 +207,7 @@ aside ul {
 
 ul a {
     color: black;
+    font-family: var(--fonte-padrao);
 }
 
 #div_principal > p {
@@ -237,4 +239,18 @@ footer > p > a:hover {
 
 #p_final {
     font-family: var(--fonte-padrao);
+}
+
+li.indice {
+    margin: 10px;
+    font-size: 20px;
+}
+
+#h1-indice {
+    font-family: var(--fonte-android);
+    color: var(--cor5);
+    font-size: 28px;
+    font-weight: normal;
+    font-size: 1.8em;
+    margin-left: 10px;
 }
