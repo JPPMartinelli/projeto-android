@@ -314,3 +314,15 @@ a#a-cadastro:hover {
     box-shadow: 0px 0px 3px 2px rgb(0 0 0 / 36%);
     transition: 0.5s;
 }
+
+
+
+
+main#main-cadastro {
+    border-radius: 0px;
+    position: absolute;
+    top: 34%;
+    left: 38%;
+    width: 25%;
+    height: 30%;
+}
