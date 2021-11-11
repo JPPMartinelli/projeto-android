@@ -5,8 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fale Conosco</title>
+
+    <link rel="stylesheet" href="estilo/style.css">
 </head>
 <body>
-    
+    <header>
+        <h1>CURIOSIDADES DE TECNOLOGIA</h1>
+        <p>Tudo aquilo que você sempre quis saber sobre o mundo Tech em um único lugar.</p>
+    </header>
+
+    <nav id="nav_header">
+            <a href="index.html">Home</a>  
+            <a href="#">Notícias</a> 
+            <a href="#">Curiosidades</a> 
+            <a href="fale-conosco.html">Fale Conosco</a> 
+    </nav>
+
+    <main>
+        <nav>
+            <h1>Fale conosco</h1>
+            <form action="#">
+                <input id="input-text" type="text" placeholder="Nos conte o que você tem a dizer..." required> <!--caixa de texto-->
+                <!--radio para público ou anônimo:-->
+                <p style="text-indent: 6px;">Desejo ficar:</p>
+                <input type="radio" id="anonimo" name="anonimo-publico" value="anonimo" required>&nbsp;Anônimo 
+                <input type="radio" id="publico" name="anonimo-publico" value="publico" required style="margin-left: 2%;" checked>&nbsp;Público
+                <br>
+                <br>
+
+                <div id="mae-publica">
+                    <p>Você ainda não está cadastrado, clique no botão abaixo para se cadastrar:</p>
+                    <div id="div-publica">
+                        <span>Cadastrar-se</span>
+                    </div>
+                </div>
+
+                <br>
+                <br>
+                <input type="submit" id="submit">
+            </form>
+        </nav>
+    </main>
 </body>
 </html>
