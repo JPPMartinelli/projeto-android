@@ -23,23 +23,23 @@
 
     <main>
         <nav>
-            <h1>Fale conosco</h1>
+            <h1 id="h1-fale-conosco">Fale conosco</h1>
             <form action="#">
-                <input id="input-text" type="text" placeholder="Nos conte o que você tem a dizer..." required> <!--caixa de texto-->
+                <!--<input id="input-text" type="text" placeholder="Nos conte o que você tem a dizer..." required> caixa de texto-->
                 <!--radio para público ou anônimo:-->
+                <textarea name="comentario-usuario" id="textarea-comentario" placeholder="Nos conte o que você tem a dizer..."></textarea>
                 <p style="text-indent: 6px;">Desejo ficar:</p>
                 <input type="radio" id="anonimo" name="anonimo-publico" value="anonimo" required>&nbsp;Anônimo 
                 <input type="radio" id="publico" name="anonimo-publico" value="publico" required style="margin-left: 2%;" checked>&nbsp;Público
                 <br>
-                <br>
 
                 <div id="mae-publica">
                     <p>Você ainda não está cadastrado, clique no botão abaixo para se cadastrar:</p>
-                    <div id="div-publica">
+                    <a href="cadastro.html" id="a-cadastro">
                         <span>Cadastrar-se</span>
-                    </div>
+                    </a>
                 </div>
-
+                <br>
                 <br>
                 <br>
                 <input type="submit" id="submit">
