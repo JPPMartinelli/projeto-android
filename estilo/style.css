@@ -325,4 +325,15 @@ main#main-cadastro {
     left: 38%;
     width: 25%;
     height: 30%;
+    padding: 20px;
+}
+
+input#cadastro-email {
+    margin-bottom: 20px;
+    
+    width: 100%;
+}
+
+input#cadastro-senha {
+    width: 100%;
 }
