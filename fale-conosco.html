@@ -29,8 +29,14 @@
                 <!--radio para público ou anônimo:-->
                 <textarea name="comentario-usuario" id="textarea-comentario" placeholder="Nos conte o que você tem a dizer..."></textarea>
                 <p style="text-indent: 6px;">Desejo ficar:</p>
-                <input type="radio" id="anonimo" name="anonimo-publico" value="anonimo" required>&nbsp;Anônimo 
-                <input type="radio" id="publico" name="anonimo-publico" value="publico" required style="margin-left: 2%;" checked>&nbsp;Público
+                <fieldset style="border: 0px;">
+                <legend>Desejo ficar:</legend>
+                <input type="radio" id="anonimo" name="anonimo-publico" value="anonimo" required> 
+                <label for="anonimo">Anônimo</label>
+
+                <input type="radio" id="publico" name="anonimo-publico" value="publico" required style="margin-left: 2%;" checked>
+                <label for="publico">Público</label>
+            </fieldset>
                 <br>
 
                 <div id="mae-publica">
